@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: 'angular2-redux.component.html',
   styleUrls: ['angular2-redux.component.css']
 })
-export class Angular2ReduxAppComponent {
-  title = 'angular2-redux works!';
+export class App {
+  title = 'App';
 }

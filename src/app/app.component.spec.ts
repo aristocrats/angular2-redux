@@ -5,18 +5,18 @@ import {
   it,
   inject
 } from '@angular/core/testing';
-import { Angular2ReduxAppComponent } from '../app/angular2-redux.component';
+import { App } from '../app/app.component';
 
-beforeEachProviders(() => [Angular2ReduxAppComponent]);
+beforeEachProviders(() => [App]);
 
 describe('App: Angular2Redux', () => {
   it('should create the app',
-      inject([Angular2ReduxAppComponent], (app: Angular2ReduxAppComponent) => {
+      inject([App], (app: App) => {
     expect(app).toBeTruthy();
   }));
 
   it('should have as title \'angular2-redux works!\'',
-      inject([Angular2ReduxAppComponent], (app: Angular2ReduxAppComponent) => {
+      inject([App], (app: App) => {
     expect(app.title).toEqual('angular2-redux works!');
   }));
 });
