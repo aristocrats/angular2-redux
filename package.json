@@ -1,0 +1,19 @@
+{
+  "name": "angular2-redux",
+  "version": "0.0.0",
+  "description": "Starter Kit with Angular2, Webpack, Redux, and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aristocrats/angular2-redux.git"
+  },
+  "author": "Michael Frohberg <me@michaelfrohberg.com> (https://github.com/mfrohberg)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aristocrats/angular2-redux/issues"
+  },
+  "homepage": "https://github.com/aristocrats/angular2-redux#readme"
+}
